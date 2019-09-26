@@ -1,0 +1,24 @@
+// IMPORT SCSS VARIABLE
+@import "./variable";
+
+// IMPORT SCSS MIXIN
+@import "./mixin";
+
+//  IMPORT COMPONENTS
+// block
+@import "./components/block";
+// box
+@import "./components/box";
+// button
+@import "./components/button";
+// common
+@import "./components/common";
+
+// IMPORT RESPONSIVE MEDIA SCREEN
+@import "./media";
+
+// IMPORT RESET SCSS
+@import "./reset";
+
+// IMPORT SCSS CUSTOMS
+@import "./customs";

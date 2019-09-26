@@ -1,0 +1,47 @@
+.bg-white {
+    background: #fff;
+}
+.fix-height {
+    min-height: 100vh;
+}
+.fix-left-right {
+    padding: 0 !important;
+}
+.nav {
+    list-style: none;
+    padding-inline-start: 0px;
+    li {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px dashed #ddd;
+         span {
+             padding-right: 15px;
+         }
+    }
+}
+#position {
+    text-transform: uppercase;
+        text-shadow: 0.2px 0.2px 0.4px rgb(0, 68, 3);
+}
+.pl-1 {
+    padding-left: 10px;
+}
+
+.profile {
+    background: #fff;
+    box-shadow: 0.4px 0.4px 26px rgba(0, 0, 0, 0.15);
+    .info {
+        padding: 20px;
+        &__title {
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: #616161;
+                margin-bottom: 15px;
+                text-align: center;
+        }
+        &__main {
+
+        }
+    }
+}

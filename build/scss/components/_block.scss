@@ -1,0 +1,12 @@
+.block {
+
+        background: #ffffff;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0.4px 0.4px 1px rgba(0, 0, 0, 0.21);
+        margin: 25px 0;
+          &__title {
+              text-transform: uppercase;
+                  text-shadow: 0.2px 0.2px 0.4px rgb(0, 68, 3);
+          }
+}
